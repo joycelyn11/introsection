@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navitems{
+    margin-right: 40rem;
+    color: rgb(83, 81, 81);
+}
+.navitems a{
+    padding: 15px;
+}
+.navbtns{
+    margin-right: 30px;
+}
+.navbtns a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgb(83, 81, 81);
+}
+.navbtns button{
+    color: rgb(83, 81, 81);
+    background-color: white;
+    border-radius: 20%;
+    height: 120%;
+    width: 62px;
+    font-size: small;
+}
+main{
+    /* border: 2px solid red; */
+    display: flex;
+    margin-top: 20px;
+}
+.right{
+    /* border: 2px solid black; */
+    padding-right: 80px;
+}
+.right h1{
+    font-size: 4em;
+    margin-top: 90px;
+    margin-left: 110px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 83%;
+}
+.right p{
+    width: 64%;
+    margin-left: 110px;
+    margin-top: 35px;
+    color: rgb(83, 81, 81);
+}
+.left{
+    /* border: 2px solid black; */
+}
+.left img{
+    width: 60%;
+    margin-left: 170px;
+}
+.right button{
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 12px;
+    width: 100px;
+    height: 40px;
+    margin-left: 110px;
+    margin-top: 40px;
+    border-radius: 12%;
+}
+.right .letter{
+    margin-top: 80px;
+    margin-left: 95px;
+}
+.letter img{
+    padding: 5px;
+}
